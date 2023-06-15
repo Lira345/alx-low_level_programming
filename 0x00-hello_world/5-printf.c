@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * Description: main - prints out a string to stdout.
  * Return: Always 0 (Success)
  */  
 int main(void)
