@@ -1,18 +1,18 @@
 #include "main.h"
 /**
-*_abs - computers the absolute value of an integer
-*@c: The number to be computed
-*Return: Absolute value of number or zero
-*/
+ * _abs - computers the absolute value of an interger
+ * @c: The number to be computed
+ * Return: Absolute value of number or zero
+ */
 
 int _abs(int c)
 {
 	if (c < 0)
 	{
-		int _abs_val;
+	int abs_val;
 
-		_abs_val = c - 1;
-		return (_abs_val);
+	abs_val = c * -1;
+	return (abs_val);
 	}
-	return (0);
+	return (c);
 }
