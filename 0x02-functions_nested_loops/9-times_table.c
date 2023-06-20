@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *times_table - prints the nine times table, starting with 0
 *Return: Empty output
@@ -20,7 +19,6 @@ u = c % 10;
 d = (c - u) / 10;
 _putchar(44);
 _putchar(32);
-_putchar(32);
 _putchar(d + '0');
 _putchar(u + '0');
 }
@@ -29,6 +27,7 @@ else
 if (b != 0)
 {
 _putchar(44);
+_putchar(32);
 _putchar(32);
 }
 _putchar(c + '0');
