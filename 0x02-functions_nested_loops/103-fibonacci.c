@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - prints the sum of the fibonacci numbers less than 400000
+*main - prints the sum of the fibonacci numbers less than 4000000
 *Rerurn: Notging!
 */
 
