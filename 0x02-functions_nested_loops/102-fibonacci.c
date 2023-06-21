@@ -21,7 +21,7 @@ s += n;
 n = s - n;
 printf(", %ld", s);
 }
-m++
+m++;
 }
 printf("\n");
 return (0);
