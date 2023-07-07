@@ -1,20 +1,18 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
-* main - prints all the agrs content
-* @agrc: argument count
-* @argv: argument vector
-* Return: Always 0
+* main - prints all arguments it received
+*@argc: argument count
+*@argv: argument vector
+*Return: returns 0
 */
 
 int main(int argc, char *argv[])
 {
-int k;
+		int i;
 
-for (k = 0; k < argc; k++)
-{
-printf("%s\n", argv[k]);
-}
-return (0);
+		for (i = 0; i < argc; i++)
+			printf("%s\n", argv[i]);
+
+		return (0);
 }
