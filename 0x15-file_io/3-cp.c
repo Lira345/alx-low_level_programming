@@ -9,7 +9,7 @@ void close_file(int flieds);
  *
  * Return: Always 0
  *
- * Concept: If arguement count is incorrect - exit code 97.
+ * description: If arguement count is incorrect - exit code 97.
  *
  *		If file_from does not exits or
  *		you cant read from it - exit code 98.
