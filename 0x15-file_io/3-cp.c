@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
  * close_file - close the file descriptor.
  * @flieds: file desciptor to be closed.
  *
- * Return: on success 
+ * Return: on success -1 
  */
 void close_file(int flieds)
 {
@@ -79,5 +79,6 @@ void close_file(int flieds)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", flieds);
 		exit(100);
+		return (-1)
 	}
 }
