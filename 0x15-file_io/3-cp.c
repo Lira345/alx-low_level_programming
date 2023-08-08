@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
  * close_file - close the file descriptor.
  * @flieds: file desciptor to be closed.
  *
- * Return: on success - 1
+ * Return: on success 
  */
 void close_file(int flieds)
 {
