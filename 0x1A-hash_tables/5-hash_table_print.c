@@ -31,7 +31,7 @@ void hash_table_print(const hash_table_t *ht)
 		if (m && idx < ht->size)
 			printf(", ");
 		else
-			m= 1;
+			m = 1;
 
 		idx++;
 	}
